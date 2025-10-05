@@ -3,6 +3,7 @@
   fetchFromGitHub,
   buildGo125Module,
   nix-update-script,
+  nixosTests,
 }:
 buildGo125Module (finalAttrs: {
   pname = "qbittorrent-exporter";
@@ -24,7 +25,10 @@ buildGo125Module (finalAttrs: {
     "-X 'qbit-exp/app.version=v${finalAttrs.version}'"
   ];
 
-  passthru.updateScript = nix-update-script { };
+  passthru = {
+    tests.testService = nixosTests.prometheus-exporters.qbittorrent;
+    updateScript = nix-update-script { };
+  };
 
   meta = {
     description = "A fast and lightweight Prometheus exporter for qBittorrent.";
