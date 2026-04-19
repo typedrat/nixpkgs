@@ -53,6 +53,7 @@ stdenvNoCC.mkDerivation (finalAttrs: {
         --filter ./packages/desktop \
         --filter ./packages/opencode \
         --filter ./packages/shared \
+        --filter ./packages/ui \
         --ignore-scripts \
         --no-progress \
         --os="*"
