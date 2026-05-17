@@ -279,6 +279,11 @@
     },
     "version": "1.0.137"
   },
+  "linux-stable-krisp": {
+    "hash": "sha256-WMgeAf8B7v/bHcpis2VuAaAl3UcR0v1c4gXAEgmL5jM=",
+    "url": "https://stable.dl2.discordapp.net/apps/linux/0.0.134/modules/discord_krisp-2.zip",
+    "version": "2"
+  },
   "osx-canary": {
     "distro": {
       "hash": "sha256-wQlaOR2PYbfKl4b6kVeM1Uy8dkgXMYUUcl20lAD0xSQ=",
@@ -459,6 +464,11 @@
     },
     "version": "1.0.987"
   },
+  "osx-development-krisp": {
+    "hash": "sha256-onjjJw6ergOEwbQmKX6pRRDgrR36dlNNon1CW5yR0Ro=",
+    "url": "https://development.dl2.discordapp.net/apps/osx/1.0.982/modules/discord_krisp-1.zip",
+    "version": "1"
+  },
   "osx-ptb": {
     "distro": {
       "hash": "sha256-LWvTisilV3o7ndSkJylscpjRk/8e6HOG+sEqwss1Xz0=",
@@ -548,6 +558,11 @@
       }
     },
     "version": "0.0.232"
+  },
+  "osx-ptb-krisp": {
+    "hash": "sha256-LAKYuVtu0jZxSgKgXBgg26vheY4BW7OuNIx1+XpC5TY=",
+    "url": "https://ptb.dl2.discordapp.net/apps/osx/0.0.231/modules/discord_krisp-1.zip",
+    "version": "1"
   },
   "osx-stable": {
     "distro": {
